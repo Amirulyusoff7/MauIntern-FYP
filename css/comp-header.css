@@ -1,0 +1,28 @@
+  /* Header styles */
+  header {
+    background-color: #724355;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-img {
+    border-radius: 50%;
+}
+
+  
+  .header button {
+    margin-right: 10px;
+    padding: 10px 10px;
+    font-size: 14px;
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .header-buttons button:hover {
+    background-color: #80c0da;
+  }

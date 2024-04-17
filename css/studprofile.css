@@ -1,0 +1,97 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.profile-image img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Tabs Design */
+.tabs-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.tabs-nav {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a2a57;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tabs-nav li {
+    flex: 1;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.tabs-nav li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tabs-nav li.active {
+    background-color: #cacce7;
+    color: #000;
+}
+
+.tab-content {
+    display: none;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+  .profile-image {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .profile-image form {
+    margin-bottom: 10px;
+  }
+  
+  .profile-image img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #333;
+  }
+  

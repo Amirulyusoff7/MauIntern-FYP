@@ -1,0 +1,24 @@
+Student:
+user 1:
+email: amirul@gmail.com
+password:abc123
+
+user 2:
+email:abc@gmail.com
+password:abc123
+
+
+Company:-
+user 1:	
+email: alif@khitech.com
+password:abc123
+
+user 2:
+erni@lazada.com
+password: abc123
+
+SELECT i.title, i.StartDate, i.EndDate, a.DateApplied, 
+c.company_name, a.Status FROM application a 
+JOIN internship i ON a.internshipID = i.internshipID 
+JOIN company c ON i.companyID = c.companyID 
+WHERE a.studentID = Session ID;

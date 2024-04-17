@@ -1,0 +1,67 @@
+/* .home-section>.content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    /* Divide the width into a 1/4 and 3/4 ratio */
+    /* gap: 20px; */
+    /* Set the height to 100% of the viewport height */
+/* }  */
+.container{
+    /* Your custom styles */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(55, 0, 255, 0.1);
+    display: grid;
+    /* grid-template-columns: 1fr 2fr; */
+  }
+  
+.container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(55, 0, 255, 0.1);
+    display: grid;
+    padding-right: 50px;
+  /* grid-template-columns: 1fr 3fr; */
+  /* Divide the width into a 1/4 and 3/4 ratio */
+  gap: 20px;
+  /* Set the height to 100% of the viewport height */
+}
+/* 
+.container-profile, .container-history, .container-details {
+    padding: 20px;
+    border: 3px solid rgba(185, 185, 185, 0.2);
+    border-radius: 10px;
+    max-height: 96vh;
+}
+
+.home-section>.content>.container-profile {
+    background-color: aqua;
+    min-height: 200px;
+    grid-column: 1;
+}
+
+.home-section>.content>.container-profile>.fullname {
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.home-section>.content>.container-profile table {
+    border-collapse: collapse;
+}
+
+.home-section>.content>.container-profile table tr td {
+    padding-bottom: 10px;
+}
+
+.home-section>.content>.container-profile table tr .Attribute {
+    padding-right: 50px;
+}
+
+.home-section>.content>.container-profile table tr .data {
+    text-transform: uppercase;
+}
+
+.home-section>.content>.container-history {
+    background-color: lightblue;
+    height: 300px;
+    grid-column: 2 / span 2;
+} */

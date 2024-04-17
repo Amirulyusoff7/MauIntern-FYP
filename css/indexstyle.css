@@ -1,0 +1,77 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.card-body {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 400px; /* Adjust the width as needed */
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: #333;
+}
+
+.card-text p {
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-right: 50px; /* Add margin for spacing between cards */
+    margin-bottom: 20px;
+    width: 403px;
+}
+
+.row {
+    margin-right: -88px !important;
+    margin-left: -80px !important;
+}
+
+.index-container {
+    display: flex;
+    column-gap: 45px !important;
+    margin-left: 250px !important;
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+.intern-content{
+    /* background-color: #ebebeb; */
+    
+    height: auto;
+    width: 1328px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#internship-row {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+
